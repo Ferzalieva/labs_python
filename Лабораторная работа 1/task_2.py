@@ -2,8 +2,9 @@ list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "�
 
 # TODO Разделите участников на две команды
 
-len(list_players)
-one_list = list_players[0:3]  # Первая команда
-two_list = list_players[3:6]  # Вторая команда
+kol_players = len(list_players)  # Количество игроков = 6
+# print(kol_players)
+one_list = list_players[:3]  # Первая команда
+two_list = list_players[3:]  # Вторая команда
 print(one_list)
 print(two_list)
