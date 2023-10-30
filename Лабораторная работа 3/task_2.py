@@ -7,5 +7,5 @@ def find_common_participants(participants_1, participants_2, separator=","):
     common_participants = list(set(participants_list_1).intersection(participants_list_2))
     return common_participants
 
-participants = find_common_participants(participants_first_group,participants_second_group)
-print("Общие участники:",participants)
+participants = find_common_participants(participants_first_group, participants_second_group, separator="|")
+print("Общие участники:", participants)
